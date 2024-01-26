@@ -22,9 +22,9 @@ let workStreet = "15 Oak Ln.",
     workState = "MA",
     workCode = "02104";
 
-// A function to manage onclick events for pressing work radio button
-// An alternative approach is to call this methond in onclick event for radio button
-// Vice versa can be done for the home radio button
+// A function to manage onclick events for pressing work radio button.
+// An alternative approach is to call this method in onclick event for radio button.
+// Vice versa for the home radio button with updated values.
 function onWorkRadioPressed() {
     document.getElementById('street').value = workStreet;
     document.getElementById('city').value = workCity;
